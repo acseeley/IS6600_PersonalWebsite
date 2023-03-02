@@ -17,6 +17,6 @@ def resume():
     return render_template("resume.html")
     
 def todays_date():
-    today = date.today()
+    today =date.today()
     str_date = today.strftime("%B %d, %Y")
-    return "Today's date is " + str_date
+    return "Today's date is " + str_date + " :"
